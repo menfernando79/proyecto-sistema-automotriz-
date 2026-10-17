@@ -1,0 +1,76 @@
+# ============================================================
+# Dependencias
+# ============================================================
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# ============================================================
+# Build / distribución
+# ============================================================
+dist/
+build/
+*.tsbuildinfo
+.vite/
+
+# ============================================================
+# Variables de entorno — NUNCA subir estos archivos
+# (los .env.example sí se suben: son la plantilla sin secretos)
+# ============================================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ============================================================
+# Logs
+# ============================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+_run.log
+_run.err
+
+# ============================================================
+# Sistema operativo y editores
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Datos locales, caché y respaldos
+# ============================================================
+*.sqlite
+*.sqlite3
+*.db
+dump.sql
+*.bak
+*.tmp
+
+# ============================================================
+# Configuración de herramientas de desarrollo y agentes
+# (es configuración local de cada máquina, no código del proyecto)
+# ============================================================
+.agent/
+.opencode/
+.claude/
+.antigravity/
+.superpowers/
+docs/skills/
+
+# ============================================================
+# Notas personales de trabajo
+# ============================================================
+_notes/
+*.local.md

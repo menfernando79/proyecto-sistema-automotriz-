@@ -1,0 +1,9 @@
+{
+  "folders": [
+    { "name": "1. Backend (Express)", "path": "backend" },
+    { "name": "2. Frontend (React)", "path": "frontend" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true
+  }
+}
